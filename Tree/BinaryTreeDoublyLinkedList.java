@@ -2,6 +2,7 @@ package Tree;
 
 /**
  * Created by Anna on 6/5/17.
+ Given a binary tree, convert it to a doubly linked list such that the order of doubly linked list is the same as in-order traversal of the binary tree.
  */
 public class BinaryTreeDoublyLinkedList {
     // merge(fuse) two sorted linked lists
