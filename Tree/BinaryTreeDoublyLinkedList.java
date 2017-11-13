@@ -5,10 +5,7 @@ package Tree;
  Given a binary tree, convert it to a doubly linked list such that the order of doubly linked list is the same as 
  in-order traversal of the binary tree.Educative io
  
-  /* The above line is equivalent to the following two lines of code
-        root.left = root;
-        root.right = root;*/
- */
+ 
 public class BinaryTreeDoublyLinkedList {
     // merge(fuse) two sorted linked lists
     //Circular double liked list
@@ -59,6 +56,10 @@ public class BinaryTreeDoublyLinkedList {
         TreeNode list2 = convert_to_linked_list(root.right);
 
         root.left = root.right = root;
+         /* The above line is equivalent to the following two lines of code
+        root.left = root;
+        root.right = root;*/
+ */
         TreeNode result = concatenate_lists(list1, root);
         result = concatenate_lists(result, list2);
 
