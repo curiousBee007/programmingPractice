@@ -4,6 +4,10 @@ package Tree;
  * Created by Anna on 6/5/17.
  Given a binary tree, convert it to a doubly linked list such that the order of doubly linked list is the same as 
  in-order traversal of the binary tree.Educative io
+ 
+  /* The above line is equivalent to the following two lines of code
+        root.left = root;
+        root.right = root;*/
  */
 public class BinaryTreeDoublyLinkedList {
     // merge(fuse) two sorted linked lists
