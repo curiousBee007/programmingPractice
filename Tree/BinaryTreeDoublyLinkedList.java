@@ -59,7 +59,7 @@ public class BinaryTreeDoublyLinkedList {
          /* The above line is equivalent to the following two lines of code
         root.left = root;
         root.right = root;*/
- */
+ 
         TreeNode result = concatenate_lists(list1, root);
         result = concatenate_lists(result, list2);
 
